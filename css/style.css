@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 
-#container{
+
+.carousel-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #ededed;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+
 }
 
-.carousel-container{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+.carousel{
+    background-color: rgb(28, 119, 255);
+    height: 400px;
+    width: 800px;
+    margin: auto;
 }
